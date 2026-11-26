@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.db
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.env
+.DS_Store
+target/
