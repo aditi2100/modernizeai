@@ -26,6 +26,8 @@ Open http://localhost:5173. The frontend works without the API; set `VITE_API_UR
 
 ## Free hosting
 
+**GitHub Pages demo:** [Open ModernizeAI](https://aditi2100.github.io/modernizeai/) — available after Pages is enabled in repository settings.
+
 The static frontend can be published at no cost with GitHub Pages using `.github/workflows/pages.yml`. It runs in clearly marked browser-local demo mode and does not require an API server. The API is intended for local use; this repository does not provision a paid or third-party backend. Hosting providers' free tiers and limits can change, so this project makes no guarantee about external hosting availability.
 
 To publish: in repository **Settings → Pages**, select **GitHub Actions** as the build source. Pushes to `main` trigger the workflow. No secrets or billing account are required.
